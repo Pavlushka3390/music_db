@@ -36,6 +36,9 @@ insert into albums (name, year) values
 	('+', 2011),
 	('astroworld', 2018),
 	('pink friday', 2010)
+	
+insert into albums (name, year) values
+	('test', 2020);
 
 	insert into tracks (name, time, album_id) values
 		('Bohemian Rhapsody', 354, 1),
@@ -54,6 +57,8 @@ insert into albums (name, year) values
 		('Carousel', 180, 7),
 		('Fly', 212, 8),
 		('BedRock', 260, 8);
+	insert into tracks (name, time, album_id) values
+		('test_track', 210, 9);
 		
 	insert into singers_albums values
 		(1, 1),
@@ -64,6 +69,8 @@ insert into albums (name, year) values
 		(6, 6),
 		(7, 7),
 		(8, 8);
+	insert into singers_albums values
+		(2, 9)
 		
 	insert into collections (name, year) values 
 		('for study', 2018),
@@ -84,3 +91,5 @@ insert into albums (name, year) values
 		(6, 2), (6, 14), (6, 6),
 		(7, 8), (7, 11), (7, 15), (7, 1),
 		(8, 2), (8, 9), (8, 10);
+	insert into tracks_collections (collection_id, track_id) values
+		(null, 17);

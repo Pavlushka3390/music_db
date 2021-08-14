@@ -42,3 +42,4 @@ create table if not exists tracks_collections (
 	track_id int references tracks(id),
 	collection_id int references collections(id)
 );
+
